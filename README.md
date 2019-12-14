@@ -7,6 +7,8 @@ Dependency: tweepy
 
 Code: [streaming.py](streaming.py)
 
+Twitter Credentials are obtained on  https://apps.twitter.com/ 
+
 This piece of code gets tweet streams using tweepy, and stores extended tweet json objects in file. (Modified slightly from the example code of the tweepy library)
 
 ### Mapreduce Job
