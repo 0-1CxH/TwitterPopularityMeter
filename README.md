@@ -26,10 +26,10 @@ Command line:
 Mapper reads the files that contains json objects, and extract the count of retweet, reply, quote and favorite for each tweet, then emits tuple (hashtag, count). Reducer adds all the numbers of same hashtag as raw popularity.
 
 During this project, 4 streaming files are used as input of mapreduce job:
-> 2019-12-12 05:33 /opt/hadoop/home/hadoop8/pmeter/Dec10.txt 2.8 G \
- 2019-12-12 06:59 /opt/hadoop/home/hadoop8/pmeter/Dec11.txt 2.6 G\
-2019-12-12 21:33 /opt/hadoop/home/hadoop8/pmeter/Dec12.txt 16.6 G \
-2019-12-13 00:43 /opt/hadoop/home/hadoop8/pmeter/Dec12_2.txt 2.3 G 
+>  /opt/hadoop/home/hadoop8/pmeter/Dec10.txt 2.8 G \
+ /opt/hadoop/home/hadoop8/pmeter/Dec11.txt 2.6 G\
+ /opt/hadoop/home/hadoop8/pmeter/Dec12.txt 16.6 G \
+ /opt/hadoop/home/hadoop8/pmeter/Dec12_2.txt 2.3 G 
 
 ### Normalizing Data
 
@@ -47,7 +47,29 @@ Raw popularity results (Resulta of Mapreduce) of each data file:
 Normalized popularity result:
 [Normalized Popularity](NormalizedPopularity.txt)
 
+The result suggests that the following 20 hashtags are the most popular during Dec.10 - Dec.12, 2019:
 
+
+JIMIN	6.93640840983\
+TIMEPOY	6.79616347482\
+BeBest	4.49561358864\
+BTS	2.77895580243\
+InTheHeightsMovie	1.97859533954\
+RedVelvet	1.75234050018\
+레드벨벳	1.71586787995\
+RVF	1.7154933867\
+Sad	1.4626868109\
+Summer2020	1.42203202941\
+ARMY	1.38941178679\
+SpotifyWrapped	1.35607575292\
+Spotify	1.35326042085\
+우리아미상받았네	1.33558303091\
+クリスマスボックス	1.33438669853\
+Jungkook	1.25850981651\
+ローソン	1.07708727688\
+エルチキ	1.05218529347\
+Lチキ無料プレゼント	1.05205537558\
+HopeOnTheStreet	1.01107578993\
 
 
 
